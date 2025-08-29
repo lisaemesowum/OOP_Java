@@ -1,4 +1,4 @@
-package InterfaceOOP.serviceInterface.impl;
+package InterfaceOOP.serviceInterface.Impl;
 
 public interface Notification {
     public String sendEmail(String subject, String to, String from, String message);

@@ -1,4 +1,4 @@
-package InterfaceOOP.serviceInterface.impl;
+package InterfaceOOP.serviceInterface;
 
 public class PaystackImpl {
 }

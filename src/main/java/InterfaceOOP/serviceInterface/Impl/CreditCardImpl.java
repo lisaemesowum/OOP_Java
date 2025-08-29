@@ -6,12 +6,12 @@ public class CreditCardImpl implements Payment , Notification {
 
     @Override
     public void pay(long amount) {
-        System.out.println("The amount you paid bt card is" + amount);
+        System.out.println("The amount you paid bt card is ₦" + amount);
     }
 
     @Override
     public void refund(long amount) {
-        System.out.println("The refund process for this amount =N=" + amount);
+        System.out.println("The refund process for this amount ₦" + amount);
     }
 
     @Override

@@ -1,8 +1,10 @@
 package InterfaceOOP;
 
 import InterfaceOOP.models.Tasks;
+import InterfaceOOP.serviceInterface.Impl.CreditCardImpl;
 import InterfaceOOP.serviceInterface.Impl.TaskImpl;
 import InterfaceOOP.serviceInterface.Impl.TaskService;
+import InterfaceOOP.serviceInterface.PaystackImpl;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -45,7 +47,18 @@ public class Main {
 
 
 
+//=================================================================================================================================================================
+//        for the payment
+        System.out.println("\n==================================================");
+        CreditCardImpl credit = new CreditCardImpl();
+        credit.pay(5000);
+        credit.refund(2000);
 
+        System.out.println("\n================================");
+
+        PaystackImpl pay = new PaystackImpl();
+        pay.pay(10000);
+        pay.refund(3000);
 
 
 
